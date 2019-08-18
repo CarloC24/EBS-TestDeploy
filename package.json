@@ -1,0 +1,23 @@
+{
+  "name": "ebs-testdeploy",
+  "version": "1.0.0",
+  "description": "- y",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "--yes"
+  },
+  "keywords": [
+    "ww"
+  ],
+  "author": "ww",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
