@@ -1,12 +1,12 @@
-exports.up = async function(knex, Promise) {
-  return await knex.schema.createTable("person", tbl => {
+exports.up = function(knex, Promise) {
+  return knex.schema.createTable("person", tbl => {
     tbl.increments();
     tbl.string("name").notNullable();
   });
 };
 
-exports.down = async function(knex, Promise) {
-  return await knex.schema.dropTable("person");
+exports.down = function(knex, Promise) {
+  return knex.schema.dropTable("person");
 };
 
 exports.config = { transaction: false };
