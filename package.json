@@ -17,6 +17,7 @@
   "author": "ww",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.19.2",
     "nodemon": "^1.19.1",
