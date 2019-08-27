@@ -4,7 +4,7 @@ const pgSettings = {
   host: "database-1.cswncgslisak.us-east-1.rds.amazonaws.com",
   user: "postgres",
   password: "postgres",
-  port: 5433,
+  port: 5432,
   database: "people"
 };
 
